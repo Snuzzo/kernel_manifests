@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gh"
+           fetch="https://github.com/" />
+
+  <default revision="g2_caf_lp5.1"
+           remote="gh"
+           sync-c="true"
+           sync-j="8" />
+
+   <project path="source" name="DesolationRom-Devices/android_kernel_lge_msm8974-caf" remote="gh" revision="lp5.1" />
+   <project path="toolchains/arm-cortex_a15-linux-gnueabihf-linaro_4.9" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="gh" revision="master" />
+   <project path="android" name="Snuzzo/kernel_manifests" remote="gh" revision="g2_caf_lp5.1" />
+
+</manifest>
